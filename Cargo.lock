@@ -152,14 +152,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "client"
-version = "0.1.0"
-dependencies = [
- "eframe",
- "tokio",
-]
-
-[[package]]
 name = "clipboard-win"
 version = "4.4.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -764,6 +756,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "monkeychat-client"
+version = "0.1.0"
+dependencies = [
+ "eframe",
+ "tokio",
+]
+
+[[package]]
+name = "monkeychat-server"
+version = "0.1.0"
+dependencies = [
+ "tokio",
+]
+
+[[package]]
 name = "ndk"
 version = "0.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1105,13 +1112,6 @@ name = "serde"
 version = "1.0.142"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e590c437916fb6b221e1d00df6e3294f3fccd70ca7e92541c475d6ed6ef5fee2"
-
-[[package]]
-name = "server"
-version = "0.1.0"
-dependencies = [
- "tokio",
-]
 
 [[package]]
 name = "shared_library"
