@@ -1,0 +1,10 @@
+[package]
+name = "client"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+eframe = { git = "https://github.com/emilk/egui.git", rev = "dc26890a8044a02784980311811399778011c3b9" }
+tokio = { version = "1.1.0", features = ["rt", "net", "sync", "macros"] }
